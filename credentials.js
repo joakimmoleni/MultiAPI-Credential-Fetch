@@ -9,4 +9,4 @@ async function getCredentials() {
     return { username, password }
 }
 
-MediaSourceHandle.exports = { getCredentials }
+module.exports = { getCredentials }
