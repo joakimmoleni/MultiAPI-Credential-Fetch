@@ -2,5 +2,24 @@
   "dependencies": {
     "readline-sync": "^1.4.10",
     "ws": "^8.18.0"
-  }
+  },
+  "name": "multiapi-credential-fetch",
+  "version": "1.0.0",
+  "description": "Fetch from multiple sources and broadcast to client with sockets",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joakimmoleni/MultiAPI-Credential-Fetch.git"
+  },
+  "author": "Joakim Moléni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joakimmoleni/MultiAPI-Credential-Fetch/issues"
+  },
+  "homepage": "https://github.com/joakimmoleni/MultiAPI-Credential-Fetch#readme"
 }
